@@ -1,3 +1,6 @@
 [submodule "modules/01-gitlab-setup"]
 	path = modules/01-gitlab-setup
 	url = https://github.com/DavoudTeimouri/01-gitlab-setup
+[submodule "modules/02-repository-manager"]
+	path = modules/02-repository-manager
+	url = git@github.com:davoudteimouri/02-repository-manager.git
