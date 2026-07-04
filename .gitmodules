@@ -1,0 +1,3 @@
+[submodule "modules/01-gitlab-setup"]
+	path = modules/01-gitlab-setup
+	url = https://github.com/DavoudTeimouri/01-gitlab-setup
