@@ -4,3 +4,6 @@
 [submodule "modules/02-repository-manager"]
 	path = modules/02-repository-manager
 	url = git@github.com:davoudteimouri/02-repository-manager.git
+[submodule "modules/03-os-provisioner"]
+	path = modules/03-os-provisioner
+	url = git@github.com:davoudteimouri/03-os-provisioner.git
