@@ -1,0 +1,4 @@
+160000 commit 6c686c9c49309eccfbf042b63440b9878539360c	01-gitlab-setup
+160000 commit cadda7b1b235b7dbe909b0de0030d42c0e9a923c	02-repository-manager
+160000 commit aa6ea1c0f83beb614839b370996126fb5eaf050e	03-os-provisioner
+160000 commit df885b25ee7e8309f4839bb7c27e8c5eea208589	04-load-balancer
