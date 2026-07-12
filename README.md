@@ -21,7 +21,7 @@ A modular, decoupled Bash‑based orchestrator that accelerates provisioning of 
 | **`01-gitlab-setup`** | Remote GitLab CE provisioner | Hardware checks (≥4 CPU / 4 GiB / 25 GiB), port‑collision loop (80/443/5050/22), enterprise `docker-compose.yml` with healthchecks & log rotation, SIGINT remote cleanup. |
 | **`02-repository-manager`** | Dual‑tool: Sonatype Nexus 3 **or** VMware Harbor | Tool selection menu, per‑tool RAM minimums (Nexus 8 GiB / Harbor 4 GiB), disk ≥25 GiB, port resolution (Nexus 8081/8082, Harbor 80/443/4443), tuned compose with resource limits, SIGINT remote cleanup. |
 | **`03-os-provisioner`** | Multi‑Distro OS provisioning via Ansible | Multi‑Distro Ansible Playbook Generator, NTP pools, DNS & Limits setup (Ubuntu/RHEL). |
-| **`04-load-balancer`** | Active/Active HA Load Balancer Engine | HAProxy/NGINX dual-engine, Keepalived VRRP failover, strict IPv4 validation, path-isolated dirs (/config,/data,/logs,/certs), Docker Compose + Ansible deployment, SSL termination, GitLab upload. [View Repo](https://github.com/davoudteimouri/04-load-balancer) |
+| **`04-load-balancer`** | Active/Active HA Load Balancer Engine | HAProxy/NGINX dual-engine, Keepalived VRRP failover, strict IPv4 validation, path-isolated dirs (/config,/data,/logs,/certs), Docker Compose + Ansible deployment, SSL termination, zero-downtime VIP failover. [View Repo](https://github.com/davoudteimouri/04-load-balancer) |
 
 ---
 
