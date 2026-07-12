@@ -3,10 +3,10 @@
 	url = https://github.com/DavoudTeimouri/01-gitlab-setup
 [submodule "modules/02-repository-manager"]
 	path = modules/02-repository-manager
-	url = git@github.com:davoudteimouri/02-repository-manager.git
+	url = https://github.com/davoudteimouri/02-repository-manager.git
 [submodule "modules/03-os-provisioner"]
 	path = modules/03-os-provisioner
 	url = https://github.com/davoudteimouri/03-os-provisioner.git
 [submodule "modules/04-load-balancer"]
 	path = modules/04-load-balancer
-	url = https://github.com/DavoudTeimouri/04-load-balancer.git
+	url = https://github.com/davoudteimouri/04-load-balancer.git
